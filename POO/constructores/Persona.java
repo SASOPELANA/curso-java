@@ -20,6 +20,15 @@ public class Persona {
     this.esEstudiante = esEstudiante;
   }
 
+  // Sobrecarga de constructores
+  public Persona(String nombre, String apellido, int edad, boolean esEstudiante, String carreraNombre) {
+    carrera = new Carrera(carreraNombre);
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.edad = edad;
+    this.esEstudiante = esEstudiante;
+  }
+
   // Métodos o comportamientos de un objeto
   public String getNombreCompleto() {
     return nombre + " " + apellido;

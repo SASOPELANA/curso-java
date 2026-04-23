@@ -11,4 +11,11 @@ public class Carrera {
 
   }
 
+  // Sobrecarga de constructores
+  public Carrera(String nombre) {
+
+    this.nombre = nombre;
+
+  }
+
 }
