@@ -17,5 +17,9 @@ public class Main {
         System.out.println("El perro llamado " + perro.nombre + " hace: ");
         System.out.println(perro.hacerSonidos());
 
+        System.out.println("\nCantidad de animales creados: " + Animal.getContadorAnimales());
+
+        System.out.println("\nEl nombre de la veterinaria es: " + Veterinaria.nombre);
+
     }
 }
